@@ -1,0 +1,74 @@
+body {
+    background: url("../images/background.png");
+}
+
+#logo {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#instructions {
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#random-num {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    background: #077722;
+    color: #3bf768;
+}
+
+#wins-losses {
+    padding: 0;
+}
+#wins, #losses {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #3bf768;
+    color: #077722;
+    padding-left: 10px;
+}
+.gems {
+    border: 2px solid black;
+}
+
+.gem img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#total {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: #17e9bf;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .container {  
+      max-width: 700px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 700px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 700px;
+    }
+  }
